@@ -69,10 +69,10 @@ class Uploader:
             )
             description = (
                 Config.VIDEO_DESCRIPTION
-                + "\nUploaded to YouTube with https://tx.me/youtubeitbot"
+                + "\nUploaded under Non-Profit Im not making money form my video"
             )[:5000]
             if not Config.UPLOAD_MODE:
-                privacyStatus = "unlisted"
+                privacyStatus = "private"
             else:
                 privacyStatus = Config.UPLOAD_MODE
 
